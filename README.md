@@ -4,7 +4,17 @@ Starter template for [Routify](https://github.com/sveltech/routify)
 
 ### Get started
 
-To use this starter run `npx @sveltech/routify init` in an empty folder.
+#### Using `degit`
+
+[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
+
+```bash
+# for Rollup
+npx degit "jadbox/routify-starter#tailwind" project-name
+cd project-name
+npm install
+npm dev
+```
 
 Alternatively, you can clone this repo.
 
