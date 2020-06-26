@@ -1,6 +1,5 @@
 <script>
 	import {isActive, url} from '@sveltech/routify'
-	export let segment;
 </script>
 
 <style>
